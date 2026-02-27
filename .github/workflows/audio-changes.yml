@@ -12,6 +12,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4.2.2
+      with:
+        repository: {{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.sha }}
+        sparse-checkout: |
+          .github
+          Resources/Audio
 
     - name: Get changed files
       id: files
@@ -27,6 +33,7 @@ jobs:
         count=`echo $files | wc -w`
         # no trolling
         infos=`file -- $files | sed s/EOF/E0F/g`
+        echo "Infos = $infos"
         printf 'info<<EOF\n**Sound Bot**\n\nThis PR changed %d sounds:\n<details>\n%s\n</details>\nEOF' "$count" "$infos" >> $GITHUB_OUTPUT
 
     - name: Potentially find comment
