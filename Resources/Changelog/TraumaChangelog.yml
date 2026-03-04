@@ -3570,3 +3570,10 @@ Entries:
   id: 422
   time: '2026-03-04T14:06:44.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1002
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed library access name not being localized.
+  id: 423
+  time: '2026-03-04T16:01:48.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1006
