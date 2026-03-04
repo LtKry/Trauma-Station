@@ -1847,7 +1847,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
-    access: [["Service"]]
+    access: [["Library"]] # Trauma - was Service
 
 - type: entity
   parent: VendingMachine
