@@ -3554,3 +3554,12 @@ Entries:
   id: 420
   time: '2026-03-04T11:18:57.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/994
+- author: assripper.
+  changes:
+  - type: Add
+    message: >-
+      The abductor scientist now spawns with a radio jammer which helps them not
+      immediately get called out over radio
+  id: 421
+  time: '2026-03-04T12:27:24.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/997
