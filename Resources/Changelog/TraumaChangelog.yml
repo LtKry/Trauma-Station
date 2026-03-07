@@ -3783,3 +3783,20 @@ Entries:
   id: 447
   time: '2026-03-07T14:17:15.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1094
+- author: Lumminal
+  changes:
+  - type: Add
+    message: >-
+      Shadow Demons are now in the game! Check the guidebook for more
+      information.
+  - type: Add
+    message: >-
+      You can implant a Shadow Demon's heart to get the ability to Shadow
+      Grapple.
+  - type: Add
+    message: >-
+      The wizard can now purchase a new item, bottle of shadows. It summons a
+      Shadow Demon to the station for 1 wizcoin.
+  id: 448
+  time: '2026-03-07T15:04:57.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/820
