@@ -4174,3 +4174,10 @@ Entries:
   id: 491
   time: '2026-03-11T06:32:54.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1190
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed plant analyzer breaking with mutated plants?
+  id: 492
+  time: '2026-03-11T08:07:16.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1191
