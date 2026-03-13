@@ -4307,3 +4307,10 @@ Entries:
   id: 505
   time: '2026-03-13T17:53:34.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1238
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: 'Fixed flatpacks getting blocked by ghosts and other stuff. '
+  id: 506
+  time: '2026-03-13T18:12:49.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1245
