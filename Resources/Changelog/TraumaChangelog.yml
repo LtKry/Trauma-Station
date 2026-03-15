@@ -4600,3 +4600,10 @@ Entries:
   id: 540
   time: '2026-03-15T19:02:59.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1338
+- author: JohnJJohn
+  changes:
+  - type: Fix
+    message: Hopefully reduced end round lag by alot
+  id: 541
+  time: '2026-03-15T19:27:04.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1323
