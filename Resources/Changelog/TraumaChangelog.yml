@@ -4665,3 +4665,10 @@ Entries:
   id: 547
   time: '2026-03-16T12:05:01.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1354
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Removed slop teach a lesson and permakill fellow traitor objectives.
+  id: 548
+  time: '2026-03-16T12:53:24.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1355
