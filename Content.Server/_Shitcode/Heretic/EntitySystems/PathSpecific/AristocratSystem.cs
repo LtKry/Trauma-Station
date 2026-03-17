@@ -86,6 +86,9 @@ public sealed class AristocratSystem : EntitySystem
 
     private void OnStartup(Entity<AristocratComponent> ent, ref ComponentStartup args)
     {
+        if (!HasComp<MobStateComponent>(ent))
+            return; // fuck off tests
+
         BeginWaltz(ent);
         DoVoidAnnounce(ent, "begin");
         _movement.RefreshWeightlessModifiers(ent);
