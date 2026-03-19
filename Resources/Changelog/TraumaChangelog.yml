@@ -4966,3 +4966,12 @@ Entries:
   id: 583
   time: '2026-03-19T18:17:10.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1442
+- author: deltanedas
+  changes:
+  - type: Add
+    message: >-
+      Visitor ghost roles now have skill chips and can buy uplink job-specific
+      items. 
+  id: 584
+  time: '2026-03-19T22:44:02.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1445
