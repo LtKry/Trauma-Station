@@ -5087,3 +5087,10 @@ Entries:
   id: 598
   time: '2026-03-20T22:10:50.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1112
+- author: RatherUncreativeName
+  changes:
+  - type: Fix
+    message: Fixed roundstart Wraith not spawning
+  id: 599
+  time: '2026-03-21T06:38:53.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1494
