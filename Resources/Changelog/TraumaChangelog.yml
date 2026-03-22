@@ -5173,3 +5173,10 @@ Entries:
   id: 608
   time: '2026-03-22T08:51:47.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1517
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Genetics console now costs biomass to print its injectors.
+  id: 609
+  time: '2026-03-22T09:59:28.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1519
