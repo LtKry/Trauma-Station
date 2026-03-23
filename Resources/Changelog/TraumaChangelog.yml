@@ -5275,3 +5275,43 @@ Entries:
   id: 622
   time: '2026-03-23T08:37:00.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1540
+- author: loltart
+  changes:
+  - type: Add
+    message: The xenomorph queen now has a new action, Roar.
+  - type: Tweak
+    message: >-
+      Xenomorphs acid spit ability can now be toggled on / off through an
+      action.
+  - type: Tweak
+    message: Sentient Facehuggers can now see who is infected by a larva.
+  - type: Tweak
+    message: >-
+      Sentient Facehuggers will no longer auto-latch onto people. They will have
+      to use their leap action to latch onto anyone.
+  - type: Tweak
+    message: >-
+      The xenomorph queen is now faster but their health has been dramatically
+      reduced.
+  - type: Tweak
+    message: >-
+      When a sentient facehugger infects someone their mind will be transferred
+      into the embryo, then the larva, as long as it isn't removed from the
+      victims body.
+  - type: Tweak
+    message: Xenomorphs now have less slowdown at low health.
+  - type: Tweak
+    message: The xenomorph queen will now knock down anyone with one shove.
+  - type: Fix
+    message: Facehuggers will no longer latch onto dead people.
+  - type: Fix
+    message: >-
+      You can no longer pull other people off of a resin nest if you're stuck on
+      a resin nest.
+  - type: Fix
+    message: Xenomorph hunters leap action is now working again.
+  - type: Fix
+    message: Xenomorph hunters / facehuggers leap actions are now more consistent
+  id: 623
+  time: '2026-03-23T10:50:14.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1523
