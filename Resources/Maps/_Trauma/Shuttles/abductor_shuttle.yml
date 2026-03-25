@@ -1,16 +1,16 @@
 meta:
   format: 7
-  category: Map
-  engineVersion: 262.0.0
+  category: Grid
+  engineVersion: 274.0.1
   forkId: ""
   forkVersion: ""
-  time: 09/05/2025 21:33:49
-  entityCount: 248
-maps:
-- 228
+  time: 03/25/2026 21:00:13
+  entityCount: 251
+maps: []
 grids:
 - 1
-orphans: []
+orphans:
+- 1
 nullspace: []
 tilemap:
   0: Space
@@ -24,7 +24,7 @@ entities:
       name: grid
     - type: Transform
       pos: -0.5520833,-0.5416667
-      parent: 228
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -52,9 +52,17 @@ entities:
       bodyType: Dynamic
     - type: Fixtures
       fixtures: {}
+    - type: AreaGrid
+      chunks: {}
+      areaMap: {}
     - type: OccluderTree
     - type: SpreaderGrid
     - type: Shuttle
+      dampingModifiers:
+        Cruise: 0.0075
+        Dampen: 0.25
+        Anchor: 2
+        None: 0.25
       dampingModifier: 0.25
     - type: GridPathfinding
     - type: Gravity
@@ -91,7 +99,8 @@ entities:
           -2,1:
             0: 8
           -1,-1:
-            0: 56606
+            0: 40222
+            1: 16384
           0,-2:
             0: 1792
           -1,-2:
@@ -102,36 +111,20 @@ entities:
         - volume: 2500
           temperature: 293.15
           moles:
-          - 21.824879
-          - 82.10312
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
+            Oxygen: 21.824879
+            Nitrogen: 82.10312
+        - volume: 2500
+          temperature: 293.14975
+          moles:
+            Oxygen: 20.078888
+            Nitrogen: 75.53487
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: ImplicitRoof
-  - uid: 228
-    components:
-    - type: MetaData
-      name: Map Entity
-    - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: GridTree
-    - type: Broadphase
-    - type: OccluderTree
+    - type: TileHistory
+      chunkHistory: {}
+    - type: ExplosionAirtightGrid
 - proto: AbductorAlienPad
   entities:
   - uid: 181
@@ -194,36 +187,19 @@ entities:
     - type: DeviceList
       devices:
       - 240
-- proto: APCHyperCapacity
+- proto: APCEmpProof
   entities:
-  - uid: 85
+  - uid: 255
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -3.5,0.5
+      rot: 1.5707963267948966 rad
+      pos: -2.5,0.5
       parent: 1
-  - uid: 86
+  - uid: 256
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 4.5,0.5
-      parent: 1
-- proto: BasicCyberneticEyes
-  entities:
-  - uid: 225
-    components:
-    - type: Transform
-      pos: 2.4815433,0.0026143193
-      parent: 1
-  - uid: 226
-    components:
-    - type: Transform
-      pos: 2.4815433,0.0026143193
-      parent: 1
-  - uid: 227
-    components:
-    - type: Transform
-      pos: 2.4815433,0.0026143193
+      rot: -1.5707963267948966 rad
+      pos: 3.5,0.5
       parent: 1
 - proto: CableApcExtension
   entities:
@@ -576,6 +552,16 @@ entities:
     - type: Transform
       pos: 4.5,-1.5
       parent: 1
+  - uid: 236
+    components:
+    - type: Transform
+      pos: -2.5,0.5
+      parent: 1
+  - uid: 254
+    components:
+    - type: Transform
+      pos: 3.5,0.5
+      parent: 1
 - proto: CableTerminal
   entities:
   - uid: 38
@@ -611,14 +597,14 @@ entities:
   - uid: 12
     components:
     - type: Transform
-      pos: -1.4820733,0.17776257
+      pos: -1.5204563,0.42417204
       parent: 1
 - proto: ClothingBackpackDuffelAbductorFilled
   entities:
   - uid: 202
     components:
     - type: Transform
-      pos: -1.4716566,0.75067925
+      pos: -1.4560375,0.82519877
       parent: 1
     - type: GroupExamine
       group:
@@ -633,13 +619,6 @@ entities:
           priority: 0
           component: ClothingSpeedModifier
         title: null
-- proto: ClothingMaskBreath
-  entities:
-  - uid: 218
-    components:
-    - type: Transform
-      pos: -1.4852469,0.13427067
-      parent: 1
 - proto: ComputerIFF
   entities:
   - uid: 183
@@ -654,6 +633,13 @@ entities:
     components:
     - type: Transform
       pos: 0.5,5.5
+      parent: 1
+- proto: CrateFreezerAbductor
+  entities:
+  - uid: 216
+    components:
+    - type: Transform
+      pos: -1.5,-0.5
       parent: 1
 - proto: Defibrillator
   entities:
@@ -859,23 +845,6 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-- proto: MedicalCyberneticEyes
-  entities:
-  - uid: 219
-    components:
-    - type: Transform
-      pos: 2.4815433,0.5442808
-      parent: 1
-  - uid: 220
-    components:
-    - type: Transform
-      pos: 2.4815433,0.5442808
-      parent: 1
-  - uid: 221
-    components:
-    - type: Transform
-      pos: 2.4815433,0.5442808
-      parent: 1
 - proto: MedkitBruteFilled
   entities:
   - uid: 204
@@ -926,12 +895,56 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-- proto: NitrousOxideTankFilled
+- proto: OrganCyberneticEyes
   entities:
-  - uid: 216
+  - uid: 225
     components:
     - type: Transform
-      pos: -1.5775576,0.12038177
+      pos: 2.4815433,0.0026143193
+      parent: 1
+  - uid: 226
+    components:
+    - type: Transform
+      pos: 2.4815433,0.0026143193
+      parent: 1
+  - uid: 227
+    components:
+    - type: Transform
+      pos: 2.4815433,0.0026143193
+      parent: 1
+- proto: OrganCyberneticEyesMedical
+  entities:
+  - uid: 219
+    components:
+    - type: Transform
+      pos: 2.4815433,0.5442808
+      parent: 1
+  - uid: 220
+    components:
+    - type: Transform
+      pos: 2.4815433,0.5442808
+      parent: 1
+  - uid: 221
+    components:
+    - type: Transform
+      pos: 2.4815433,0.5442808
+      parent: 1
+- proto: OrganCyberneticEyesSecurity
+  entities:
+  - uid: 222
+    components:
+    - type: Transform
+      pos: 2.4815433,-0.49738568
+      parent: 1
+  - uid: 223
+    components:
+    - type: Transform
+      pos: 2.4815433,-0.49738568
+      parent: 1
+  - uid: 224
+    components:
+    - type: Transform
+      pos: 2.4815433,-0.49738568
       parent: 1
 - proto: PlushieAbductor
   entities:
@@ -968,23 +981,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 0.5,6.5
       parent: 1
-- proto: SecurityCyberneticEyes
-  entities:
-  - uid: 222
-    components:
-    - type: Transform
-      pos: 2.4815433,-0.49738568
-      parent: 1
-  - uid: 223
-    components:
-    - type: Transform
-      pos: 2.4815433,-0.49738568
-      parent: 1
-  - uid: 224
-    components:
-    - type: Transform
-      pos: 2.4815433,-0.49738568
-      parent: 1
 - proto: SMESBasic
   entities:
   - uid: 174
@@ -992,12 +988,32 @@ entities:
     - type: Transform
       pos: -2.5,-3.5
       parent: 1
-- proto: SpawnPointLoneAbductor
+- proto: SpawnPointAbductor
   entities:
+  - uid: 11
+    components:
+    - type: Transform
+      pos: 1.5,1.5
+      parent: 1
+  - uid: 85
+    components:
+    - type: Transform
+      pos: 1.5,0.5
+      parent: 1
+  - uid: 86
+    components:
+    - type: Transform
+      pos: -0.5,0.5
+      parent: 1
   - uid: 203
     components:
     - type: Transform
       pos: 0.5,1.5
+      parent: 1
+  - uid: 229
+    components:
+    - type: Transform
+      pos: -0.5,1.5
       parent: 1
 - proto: SubstationBasic
   entities:
@@ -1024,12 +1040,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 4.5,2.5
-      parent: 1
-  - uid: 11
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -1.5,-0.5
       parent: 1
   - uid: 18
     components:
@@ -1165,6 +1175,13 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 0.5,-5.5
+      parent: 1
+- proto: TurboItemRecharger
+  entities:
+  - uid: 218
+    components:
+    - type: Transform
+      pos: 4.5,3.5
       parent: 1
 - proto: WallAbductor
   entities:
@@ -1602,6 +1619,6 @@ entities:
   - uid: 195
     components:
     - type: Transform
-      pos: 4.5119457,3.4933095
+      pos: 4.528526,3.1147985
       parent: 1
 ...
