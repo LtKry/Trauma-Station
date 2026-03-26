@@ -5496,3 +5496,12 @@ Entries:
   id: 645
   time: '2026-03-26T15:00:24.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1599
+- author: NoElkaTheGod
+  changes:
+  - type: Fix
+    message: >-
+      Sleeper agents are no longer 50 times more likely to happen than other
+      midround antags.
+  id: 646
+  time: '2026-03-26T16:50:58.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1601
