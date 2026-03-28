@@ -5643,3 +5643,13 @@ Entries:
   id: 663
   time: '2026-03-28T12:44:11.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1636
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Explosion damage resistance is now part coverage-based, wearing a bombsuit
+      helmet won't protect your legs. Explosions deal their full damage to every
+      uncovered part!
+  id: 664
+  time: '2026-03-28T15:21:45.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1637
