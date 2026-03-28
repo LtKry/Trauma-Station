@@ -5660,3 +5660,10 @@ Entries:
   id: 665
   time: '2026-03-28T19:19:39.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1641
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed weldbots not working.
+  id: 666
+  time: '2026-03-28T20:28:15.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1645
