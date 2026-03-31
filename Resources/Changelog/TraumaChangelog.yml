@@ -6014,3 +6014,13 @@ Entries:
   id: 695
   time: '2026-03-31T18:12:11.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1744
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Metallic stuff for forging now glows with a realistic temperature scale,
+      if you are a blacksmith you should be able to tell metals temperatures by
+      eye.
+  id: 696
+  time: '2026-03-31T19:36:05.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1748
