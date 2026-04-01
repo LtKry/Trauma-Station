@@ -60,7 +60,7 @@
     repairable: false
 
 - type: entity
-  id: UnbeakableDurability
+  id: UnbreakableDurability
   abstract: true
   components:
   - type: Durability
@@ -364,27 +364,6 @@
 
 - type: entity
   id: KnifeDurabilitySharpenOnly
-  abstract: true
-  components:
-  - type: Durability
-    durabilityThresholds:
-      0: Pristine
-      50: Worn
-    damageProbability: .25
-    damagePopups:
-      Worn:
-      - durability-blade-0
-      - durability-blade-1
-    minDamageRoll: 2.5
-    maxDamageRoll: 5
-    maxRepairBonus: 30
-    repairable: true
-    repairMaterials:
-      Whetstone: 15, 25
-    repairDoAfter: 3
-
-- type: entity
-  id: KnifeDurabilitySharpenOnlyWizard
   abstract: true
   components:
   - type: Durability

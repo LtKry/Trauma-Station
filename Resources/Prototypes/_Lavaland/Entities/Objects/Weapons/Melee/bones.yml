@@ -64,7 +64,7 @@
 
 - type: entity
   name: bone dagger
-  parent: [ BaseKnife, BaseMajorContraband, KnifeDurability ]
+  parent: [ BaseKnife, BaseMajorContraband ]
   id: DaggerBone
   description: A sharpened bone. The bare minimum in survival.
   components:
