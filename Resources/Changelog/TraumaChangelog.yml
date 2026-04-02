@@ -6169,3 +6169,10 @@ Entries:
   id: 711
   time: '2026-04-02T16:58:11.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1767
+- author: JohnJJohn
+  changes:
+  - type: Tweak
+    message: hardsuit helmet lights aren't useless anymore
+  id: 712
+  time: '2026-04-02T17:36:33.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1788
