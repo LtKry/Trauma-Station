@@ -6259,3 +6259,10 @@ Entries:
   id: 722
   time: '2026-04-03T11:14:56.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1816
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: You can no longer eat anything without a head.
+  id: 723
+  time: '2026-04-03T11:46:04.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1817
