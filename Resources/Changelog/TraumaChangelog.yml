@@ -6266,3 +6266,10 @@ Entries:
   id: 723
   time: '2026-04-03T11:46:04.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1817
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed deafness never going away?
+  id: 724
+  time: '2026-04-03T12:14:52.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1818
