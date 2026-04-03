@@ -6245,3 +6245,10 @@ Entries:
   id: 720
   time: '2026-04-03T01:46:32.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1808
+- author: Aviu
+  changes:
+  - type: Add
+    message: Better heretic guidebook.
+  id: 721
+  time: '2026-04-03T11:09:10.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1813
