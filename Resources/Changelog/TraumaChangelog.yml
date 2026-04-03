@@ -6294,3 +6294,10 @@ Entries:
   id: 727
   time: '2026-04-03T13:21:38.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1821
+- author: deltanedas
+  changes:
+  - type: Add
+    message: Ninjas can now summon a bunch more threats, some scarier than others.
+  id: 728
+  time: '2026-04-03T15:55:52.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1830
