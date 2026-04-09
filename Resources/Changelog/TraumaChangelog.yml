@@ -6602,3 +6602,10 @@ Entries:
   id: 764
   time: '2026-04-09T07:01:03.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1926
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed emitters and other lasers not hitting the supermatter crystal.
+  id: 765
+  time: '2026-04-09T07:30:10.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1927
