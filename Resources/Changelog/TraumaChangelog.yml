@@ -6694,3 +6694,10 @@ Entries:
   id: 776
   time: '2026-04-10T19:45:03.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1958
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed jaunt from empty scroll having demonic whisper.
+  id: 777
+  time: '2026-04-10T19:53:29.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1967
