@@ -6733,3 +6733,10 @@ Entries:
   id: 779
   time: '2026-04-10T20:35:45.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1870
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed not being able to deconstruct pipes with a welder.
+  id: 780
+  time: '2026-04-10T21:27:27.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1972
