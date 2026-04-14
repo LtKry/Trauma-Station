@@ -699,7 +699,7 @@
   parent: ClothingHeadHelmetBase
   id: KillaHelm
   name: killa helmet
-  description: You don't wanna mess with
+  description: Why do you have this?
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/killahelm.rsi

@@ -1388,7 +1388,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitKilla
   name: Killas Jumpsuit
-  description: A suit worn by the man
+  description: Why do you have this?
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/killajumpsuit.rsi
