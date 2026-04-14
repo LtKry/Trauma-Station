@@ -1383,3 +1383,14 @@
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitKilla
+  name: Killas Jumpsuit
+  description: A suit worn by the man
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/killajumpsuit.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/killajumpsuit.rsi

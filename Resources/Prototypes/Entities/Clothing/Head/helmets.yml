@@ -693,3 +693,17 @@
   - type: Construction
     graph: cardHelmet
     node: cardhelmet
+
+#Killa Helmet
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: KillaHelm
+  name: killa helmet
+  description: You don't wanna mess with
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/killahelm.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/killahelm.rsi
+    quickEquip: true
+  - type: IngestionBlocker
