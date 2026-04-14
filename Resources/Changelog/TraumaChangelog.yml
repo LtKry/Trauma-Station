@@ -6904,3 +6904,10 @@ Entries:
   id: 798
   time: '2026-04-14T07:46:36.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2020
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed lathe duplication glitch.
+  id: 799
+  time: '2026-04-14T08:05:46.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2021
